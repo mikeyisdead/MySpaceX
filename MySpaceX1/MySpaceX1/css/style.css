@@ -1,0 +1,95 @@
+body
+{
+	background-color: #f4f4f4;
+	color: #555;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url('../images/showcase.jpeg');
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+
+}
+#main-header
+{
+	text-align: center;
+	background-color: rgb(209, 255 ,255);
+	padding: 20px;
+	animation-name: rainbow;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes rainbow
+{
+	0%
+	{
+		background-color: rgb(209, 255 ,255);
+	}
+	50%
+	{
+		background-color: rgb(209, 0 ,0);
+	}
+	100%
+	{
+		background-color: rgb(209, 245 ,255);
+	}
+}
+.container
+{
+	margin: auto;
+	overflow: hidden;
+
+}
+.main
+{
+	
+	background-position: center right;
+	min-height: 300px;
+	margin-bottom: 30px;
+	text-align: center;	
+}
+.main h2
+{
+	text-align: center;
+
+}
+.main p
+{
+	text-align: center;
+	color: yellow;
+
+}
+#navbar
+{
+	background-color: #333;
+	color: #fff;
+
+}
+#navbar li
+{
+	display: inline;
+}
+#navbar a
+{
+	color: #fff;
+	text-decoration: underline;
+	font-size: 18px;
+	padding-right: 15px;
+}
+.second-header
+{
+	color: yellow;
+
+}
+.main-footer
+{
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	margin-top: 80px;
+}
+.footer
+{
+	background-color: #333;
+}
